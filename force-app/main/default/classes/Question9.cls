@@ -1,0 +1,2 @@
+//A
+// The major scalabilility problem is we are writing the SOQL query and DML operation inside loop. which will break the governor limit. Also this is very hard to maintain as a developer. it will produce too much bugs for this. Also we are not maintaing the bulk operation.
